@@ -1,7 +1,10 @@
 def hello
-
+return "Hello!"
 end
 
-def greet(name)
-
+def greet(username = gets.chomp)
+return "Hello, #{username}!"
 end
+
+hello
+greet
